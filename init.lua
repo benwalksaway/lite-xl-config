@@ -11,6 +11,7 @@ local style = require "core.style"
 ----------------------------- Settings --------------------------------------
 
 config.indent_size = 4
+config.ignore_files = {}
 
 ------------------------------ Themes ----------------------------------------
 
