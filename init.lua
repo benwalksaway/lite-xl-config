@@ -7,9 +7,15 @@ local keymap = require "core.keymap"
 local config = require "core.config"
 local style = require "core.style"
 
+
+----------------------------- Settings --------------------------------------
+
+config.indent_size = 4
+
 ------------------------------ Themes ----------------------------------------
 
 core.reload_module("colors.gruvbox_ish")
+
 
 --------------------------- Key bindings -------------------------------------
 
