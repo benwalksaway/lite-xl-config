@@ -21,7 +21,7 @@ syntax.add {
     { pattern = "%:%=",                     type = "operator" },
     { pattern = "%.%.%.?",                  type = "operator" },
     { pattern = "[%a_][%w_]*",              type = "symbol"   },
-    { pattern = "%$%s?[%a_][%w_]*",         type = "keyword2" },
+    { pattern = "%$%s?[%a_][%w_]*",         type = "keyword1" },
   },
   symbols = {
     ["as"] = "keyword",
